@@ -13,8 +13,8 @@ import org.acra.sender.HttpSender;
  */
 
 @ReportsCrashes(
-        formUri = "https://aakash24.cloudant.com/acra-aakash/_design/acra-storage/_update/report",
-        //forUri="dev.api.iaugmentor.com/v2/log"
+        //formUri = "https://aakash24.cloudant.com/acra-aakash/_design/acra-storage/_update/report",
+        formUri="http://dev.api.iaugmentor.com/v2/log",
         reportType = HttpSender.Type.JSON,
         httpMethod = HttpSender.Method.POST,
         formUriBasicAuthLogin = "turesentornluditstarefte",
